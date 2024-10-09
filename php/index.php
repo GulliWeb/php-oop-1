@@ -3,8 +3,16 @@
 class Movie{
     // Dichiaro le variabili di ISTANZA della mia classe
     public $title, $director, $releaseYear, $genre, $duration, $rating; // le dichiaro pubbliche in modo che siano visibili e accessibili in qualsiasi parte del codice.
-}
 
+    // Definisco il COSTRUTTORE della mia classe
+
+    // Definisco i METODI della mia classe
+
+    // Funzione che restituisce tutte le informazioni del mio metodo
+    function getMovieInfo(){
+        return "{$this -> title} {$this -> director} {$this -> releaseYear} {$this -> genre} {$this -> duration} {$this -> rating}";
+    }
+}
 ?>
  
  <!DOCTYPE html>
@@ -12,7 +20,7 @@ class Movie{
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OOP</title>
+    <title>PHP OOP</title>
 </head>
 <body>
 </body>
