@@ -31,7 +31,6 @@ your-project-directory
 ├── php/              # Directory for class files
 │   ├── Movie.php     # Movie class definition
 │   └── Genre.php     # Genre class definition (if applicable)
-instances
 └── styles/           # CSS styles for layout
 └── style.css         # Styles for the movie display
 ```
