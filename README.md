@@ -28,10 +28,10 @@ your-project-directory
 ```
 │
 ├── index.php         # Main file to display movies
-├── classes/          # Directory for class files
+├── php/          # Directory for class files
 │   ├── Movie.php     # Movie class definition
 │   └── Genre.php     # Genre class definition (if applicable)
-├── db.php            # Data file containing movie instances
+instances
 └── styles/           # CSS styles for layout
 └── style.css     # Styles for the movie display
 ```
