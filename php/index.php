@@ -59,5 +59,8 @@ $cars4 = new Movie('Cars 4 il ritiro di MCQUEEN', 2028, $cartoonGenre);
             <p>MOVIE: <?php echo $cars4->getMovieInfo(); ?></p>
         </div>
     </div>
+    <div class="andrea-gulli" style="color:aliceblue; font-size:15px; text-align:center">
+        Made with &hearts; by Andrea Gulli
+    </div>
 </body>
 </html>
