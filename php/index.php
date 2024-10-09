@@ -17,6 +17,11 @@ class Movie{
     }
 }
 
+// Istanzio due oggetti MOVIE e li stampo a schermo.
+$fastandfuriousXI = new Movie('Fast XI', 2026, 'action');
+$cars4 = new Movie('Cars 4 il ritiro di MCQUEEN', 2028, 'cartoons');
+
+var_dump($fastandfuriousXI) ;
 ?>
  
  <!DOCTYPE html>
