@@ -4,15 +4,19 @@ class Movie{
     // Dichiaro le variabili di ISTANZA della mia classe
     public $title, $director, $releaseYear, $genre, $duration, $rating; // le dichiaro pubbliche in modo che siano visibili e accessibili in qualsiasi parte del codice.
 
-    // Definisco il COSTRUTTORE della mia classe
+    // Definisco il COSTRUTTORE della mia classe, così facendo mi assicuro che le istanze saranno popolate dalle variabili definite nel mio costruttore.
+    function __construct($_title, $_releaseYear, $_genre){
+        $this -> title = $_title;
+        $this -> releaseYear = $_releaseYear;
+        $this -> genre = $_genre;
+    }
 
     // Definisco i METODI della mia classe
-
-    // Funzione che restituisce tutte le informazioni del mio metodo
-    function getMovieInfo(){
+    function getMovieInfo(){  // Funzione che restituisce tutte le informazioni del mio metodo
         return "{$this -> title} {$this -> director} {$this -> releaseYear} {$this -> genre} {$this -> duration} {$this -> rating}";
     }
 }
+
 ?>
  
  <!DOCTYPE html>
