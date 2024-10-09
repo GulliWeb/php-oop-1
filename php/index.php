@@ -21,16 +21,27 @@ class Movie{
 $fastandfuriousXI = new Movie('Fast XI', 2026, 'action');
 $cars4 = new Movie('Cars 4 il ritiro di MCQUEEN', 2028, 'cartoons');
 
-var_dump($fastandfuriousXI) ;
+// var_dump($fastandfuriousXI) ;
 ?>
  
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+     <link rel="stylesheet" href="../styles/style.css">
+     
     <title>PHP OOP</title>
 </head>
 <body>
+    <div class="card-wrapper">
+        <div class="card">
+            <!-- Stampo a schermo i miei oggetti MOVIE con le relative proprietà (almeno le tre richieste dal costruttore). -->
+            <h1>Movie List</h1>
+            <p>MOVIE: <?php echo $fastandfuriousXI->getMovieInfo(); ?></p>
+            <p>MOVIE: <?php echo $cars4->getMovieInfo(); ?></p>
+        </div>
+    </div>
 </body>
 </html>
