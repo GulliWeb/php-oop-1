@@ -25,6 +25,7 @@ This project demonstrates the creation and manipulation of `Movie` objects using
 
 ## 📁 File Structure
 your-project-directory
+```
 │
 ├── index.php         # Main file to display movies
 ├── classes/          # Directory for class files
@@ -33,6 +34,7 @@ your-project-directory
 ├── db.php            # Data file containing movie instances
 └── styles/           # CSS styles for layout
 └── style.css     # Styles for the movie display
+```
 
 ## 📜 Usage
 
